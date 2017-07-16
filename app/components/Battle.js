@@ -1,9 +1,13 @@
 var React = require('react');
 
-class Test extends React.Component{
+class Battle extends React.Component{
   render(){
-    return (<h1>TEST</h1>);
+    return (
+      <div>
+        BATTLE!
+      </div>
+    );
   }
 }
 
-module.exports = Test;
+module.exports = Battle;
